@@ -1,0 +1,102 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/* General */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    margin: 0;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Image */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 15px;
+}
+
+/* Sections */
+section, div {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Video & Audio Box */
+.video, .audio {
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px auto;
+    width: 300px;
+}
+
+/* Lists */
+ol, ul {
+    width: 70%;
+    margin: auto;
+}
+
+li {
+    line-height: 2;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+/* Button */
+button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+/* Form */
+form {
+    background: rgba(255,255,255,0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: none;
+}
+
+textarea {
+    height: 80px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 0.8;
+}
